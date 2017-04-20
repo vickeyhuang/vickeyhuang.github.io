@@ -1,0 +1,182 @@
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td { margin: 0; padding: 0; } body, button, input, select, textarea { font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; } h1 { font-size: 18px; } h2 { font-size: 16px; } h3 { font-size: 14px; } h4, h5, h6 { font-size: 100%; } address, cite, dfn, em, var { font-style: normal; } code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } small { font-size: 12px; } ul, ol, li{ list-style: none; } a { text-decoration: none; } a:hover { text-decoration: underline; } abbr[title], acronym[title] { border-bottom: 1px dotted; cursor: help; } q:before, q:after { content: ''; } legend { color: #000; } fieldset, img { border: none; } button, input, select, textarea { font-size: 100%; } table { border-collapse: collapse; border-spacing: 0; } hr { border: none; height: 1px; } html { overflow-y: scroll; }
+
+body{
+	background-color: #f2eee8;
+}
+
+.header-fixed{
+	height: 76px;
+	line-height: 76px;
+	position: fixed;
+	text-align: center;
+	background-color: #ffffff;
+	top: 0;
+	right: 0;
+	left: 0;
+}
+
+.header-left{
+	position: absolute;
+	top: 0;
+	left: 20px;
+}
+
+header nav li{
+	display: inline-block;
+	width: 44px;
+	height: 44px;
+	line-height: 44px;
+	border: 1px solid #ccc;
+	text-align: center;
+	vertical-align: middle;
+	border-radius: 50px;
+	margin-right: 10px;
+}
+
+header nav li:hover{
+	background-color: #81a8ca;
+}
+
+header nav li a{
+	font-size: 18px;
+	text-align: center;
+}
+
+header nav li a i{
+	font-size: 18px;
+	text-align: center;
+}
+
+header nav li:hover i{
+	color: #fff;
+}
+
+.header-center{
+	text-align: center;
+ 	display: inline-block;
+ 	font-size: 18px;
+
+}
+
+.header-right{
+	display: inline-block;
+	margin-bottom: 0;
+	margin-top: 0;
+	position: absolute;
+	right: 20px;
+}
+
+.header-right-search{
+	width: 206px;
+	height: 42px;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+}
+
+.header-right-image{
+	height: 44px;
+	width: 44px;
+	border-radius: 50px;
+	vertical-align: middle;
+	margin-left: 10px;
+}
+
+.main-wapper-left{
+	width: 290px;
+	top: 0;
+	background-color: #8ea8ca;
+	text-align: center;
+}
+
+.left-user-logo{
+	margin-top: 136px;
+	height: 60px;
+	width: 60px;
+	border-radius: 50%;
+}
+
+.left-user-name{
+	font-size: 16px;
+	padding-top: 10px;
+	color: #fff;
+}
+
+.left-user-info{
+	padding-top: 10px;
+	padding-bottom: 20px;
+	padding-right: 10px;
+	padding-left: 10px;
+	color: #fff;
+}
+
+div div div a {
+	color: #fff;
+}
+
+div div div a i{
+	padding-right: 5px;
+	font-size: 18px;
+	color: #fff;
+}
+
+.left-user-follow{
+	width: 160px;
+	height: 30px;
+	margin-top: 20px;
+	margin-bottom: 40px;
+	background-color: #6d94b5;
+	border: 1px solid #ccc;
+	border-radius: 20px;
+	font-size: 18x;
+	color: #fff;
+}
+
+.left-user-follow:hover{
+	background-color: #8ea8ca;
+}
+
+.left-images-group{
+	width: 290px;
+	height: 290px;
+}
+
+.left-image{
+	width: 30%;
+	height: 30%;
+	border: 1px solid #8ea8ca;
+}
+
+.left-image:hover{
+	width: 31%;
+	height: 31%
+}
+
+.left-bellow-title{
+	font-size: 18px;
+	color: #fff;
+}
+
+div div ul li i{
+	color: #6d94b5;
+	padding-right: 5px;
+	font-size: 16px;
+}
+
+div div ul li:hover i{
+	color: #fff;
+}
+
+div div ul li i a{
+	font-size: 16px;
+}
+
+.left-bellow-title{
+	text-align: left;
+	padding-left: 10px;
+}
+
+.left-bellow-list{
+	padding-top: 15px;
+	text-align: left;
+	padding-left: 20px;
+}
