@@ -1,37 +1,25 @@
-body {
-
-}
+body, h1, h2, h3, h4, h5, h6, hr, p, blockquote, dl, dt, dd, ul, ol, li, pre, fieldset, lengend, button, input, textarea, th, td { margin: 0; padding: 0; } body, button, input, select, textarea { font: 12px/1 Tahoma, Helvetica, Arial, "\5b8b\4f53", sans-serif; } h1 { font-size: 18px; } h2 { font-size: 16px; } h3 { font-size: 14px; } h4, h5, h6 { font-size: 100%; } address, cite, dfn, em, var { font-style: normal; } code, kbd, pre, samp, tt { font-family: "Courier New", Courier, monospace; } small { font-size: 12px; } ul, ol { list-style: none; } a { text-decoration: none; } a:hover { text-decoration: underline; } abbr[title], acronym[title] { border-bottom: 1px dotted; cursor: help; } q:before, q:after { content: ''; } legend { color: #000; } fieldset, img { border: none; } button, input, select, textarea { font-size: 100%; } table { border-collapse: collapse; border-spacing: 0; } hr { border: none; height: 1px; } html { overflow-y: scroll; }
 
 .header_background{
 	background-image:url("../images/header.jpg");
 	background-position: center center;
+	background-repeat: no-repeat;
 	height: 567px
 }
 
 .nav_container{
 	text-align: center;
-	padding-top: 26px;
-	padding-bottom: 26px;
-	border:1px;
-	position: relative;
+	background-color: rgba(0,0,0,0.2);	
 }
 
-.nav_container::before{
-	content: "";
-	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
-	background-color: #111111;
-	opacity: 0.1;
-}
 
 header nav li{
-	display: inline;
+	display: inline-block;
 	padding-left: 30px;
 	padding-right: 30px;
 	border-right: 1px solid #f2f2f2;
+	height: 72px;
+	line-height: 72px;
 }
 
 li a{
@@ -52,8 +40,8 @@ header div h1{
 	font-size: 80px;
 	height: 80px;
 	color: white;	
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin-top: 0;
+    margin-bottom: 0;
 	font-family: Open Sans;
 }
 
@@ -62,8 +50,8 @@ header div p{
 	font-size: 22px;
 	height: 22px;
 	color:white;
-	margin-bottom: 0px;
-	margin-top: 0px;
+	margin-bottom: 0;
+	margin-top: 0;
 	padding-top: 20px;
 	font-family: Open Sans;
 } 
@@ -75,8 +63,8 @@ header div p{
 
 div section div h2{
  text-align: center;
- margin-top: 0px;
- margin-bottom: 0px;
+ margin-top: 0;
+ margin-bottom: 0;
  padding-top: 80px;
  font-size: 42px;
  color: #6e6e6e;
@@ -92,8 +80,8 @@ h2 strong{
 
 .h2_p{
  text-align: center;
- margin-top: 0px;
- margin-bottom: 0px;
+ margin-top: 0;
+ margin-bottom: 0;
  padding-top: 20px;
  padding-bottom: 50px;
  font-size: 16px;
@@ -102,22 +90,25 @@ h2 strong{
 }
 
 .lectus_container{
-	padding-top: 79px;
-	padding-bottom: 88px;
+	margin-right: 50px;
+	margin-left: 90px;
+	width: 1200px;
 	border-top: 1px solid #bbbbbb;
 }
 
 .lectus_feature{
 	text-align: center;
-	display: inline-table;
-	width: 400px;
+	display: inline-block;
+	width: 350px;
+	padding-bottom: 88px;
+	padding-top: 80px;
 }
 
 .lectus_h3{
 	font-size: 24px;
 	color: #d6d6d6;
-	margin-top: 0px;
-	margin-bottom: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
 	padding-top: 40px;
 	padding-bottom: 40px;
 	font-family: Open Sans;
@@ -126,7 +117,7 @@ h2 strong{
 .lectus_p{
 	font-size: 16px;
 	color: #787878;
-	margin-top: 0px;
+	margin-top: 0;
 	margin-bottom: 40px;
 	font-family: Open Sans;
 }
@@ -142,14 +133,17 @@ h2 strong{
 
 .dolor-container{
 	text-align: center;
-	width: 1350px;
+	width: 1350;
+	margin-top: 50px;
+	margin-bottom: 30px;
 }
 .dolor-features{
 	text-align: center;
 	display: inline-block;
 	width: 577px;
-	padding-top: 50px; 
-	padding-left: 10px;
+	margin-right: 25px;
+	margin-left: 25px;
+	padding-bottom: 51px;
 }
 
 .dolor-h3{
@@ -157,6 +151,7 @@ h2 strong{
 	font-size: 28px;
 	color: #6c6c6c;
 	font-family: Open Sans;
+	padding-top: 50px;
 }
 
 .dolor-p{
@@ -164,6 +159,7 @@ h2 strong{
 	font-size: 16px;
 	color: #a3a3a3;
 	font-family: Open Sans;
+	padding-top: 30px;
 }
 
 .footer_1th_background{
@@ -177,10 +173,10 @@ h2 strong{
 .footer_1th_background::before{
 	content: "";
 	position: absolute;
-	left: 0px;
-	right: 0px;
-	top: 0px;
-	bottom: 0px;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
 	background-color: #000000;
 	opacity: 0.2;
 }
@@ -215,6 +211,7 @@ footer div h2{
 	font-size: 24px;
 	color: #434343;
 	font-family: Open Sans;
+	padding-top: 10px;
 }
 
 .footer_2th_icons{
@@ -222,10 +219,10 @@ footer div h2{
 	padding-top: 50px;
 	padding-bottom: 91px;
 	border-bottom: 1px solid #2d2d2d;
-	margin-top: 0px;
-	margin-bottom: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-left: 0;
+	padding-right: 0;
 }
 
 footer div ul li{
