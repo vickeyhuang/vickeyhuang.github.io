@@ -4,15 +4,22 @@ body{
 	background-color: #f2eee8;
 }
 
+.main {
+	position: relative;
+	padding-top: 76px;
+}
+
 .header-fixed{
 	height: 76px;
 	line-height: 76px;
 	position: fixed;
 	text-align: center;
 	background-color: #ffffff;
+	box-shadow: 0 1px 3px #eee;
 	top: 0;
 	right: 0;
 	left: 0;
+	z-index: 1;
 }
 
 .header-left{
@@ -81,11 +88,16 @@ header nav li:hover i{
 	margin-left: 10px;
 }
 
+
 .main-wapper-left{
 	width: 290px;
-	top: 0;
 	background-color: #8ea8ca;
 	text-align: center;
+	/*float: left;*/
+	top: 0;
+	left: 0;
+	bottom: 0;
+	position: absolute;
 }
 
 .left-user-logo{
@@ -109,11 +121,15 @@ header nav li:hover i{
 	color: #fff;
 }
 
-div div div a {
+div div a {
 	color: #fff;
 }
 
-div div div a i{
+/*div div div a:visited{
+	text-decoration: none;
+}*/
+
+div div a i{
 	padding-right: 5px;
 	font-size: 18px;
 	color: #fff;
@@ -151,24 +167,36 @@ div div div a i{
 	height: 31%
 }
 
+.left-activities{
+	margin-bottom: 50px;
+}
+
 .left-bellow-title{
 	font-size: 18px;
 	color: #fff;
 }
 
-div div ul li i{
+.left-i{
 	color: #6d94b5;
 	padding-right: 5px;
 	font-size: 16px;
 }
 
-div div ul li:hover i{
+.left-bellow-list:hover i{
 	color: #fff;
 }
 
-div div ul li i a{
+div ul li i a{
 	font-size: 16px;
 }
+
+/*a, a:link, a:visited{
+	text-decoration: none;
+}*/
+
+/*a, a:link:hover, a:visited:hover{
+	color: #fff;
+}*/
 
 .left-bellow-title{
 	text-align: left;
@@ -179,4 +207,184 @@ div div ul li i a{
 	padding-top: 15px;
 	text-align: left;
 	padding-left: 20px;
+}
+
+.main-wapper-center{
+	margin-top: 40px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 51%;
+}
+
+.center-table-container{
+	height: 86px;
+	width: 100%;
+	background-color: #fff;
+	margin-bottom: 40px;
+}
+
+.center-table-title-container{
+
+}
+
+.center-table-title{
+	width: 25%;
+	color: #ccc;
+	font-size: 14px;
+	padding-top: 20px;
+	text-align: center;
+}
+
+.center-table-content-container{
+
+}
+
+.center-table-content{
+	width: 25%;
+	font-size: 16px;
+	color: #4d4d68;
+	padding-bottom: 20px;
+}
+
+.center-table-content:hover{
+	border-bottom: 3px solid #6d94b5;
+}
+
+.center_info_container{
+	width: 100%;
+	background-color: #fff;
+}
+
+.center_info_section{
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	border-bottom: 1px solid #ccc;
+}
+
+.center-user-image{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+	display: inline-block;
+	vertical-align: top;
+} 
+
+.center-user-info{
+	display: inline-block;
+	width: 90%;
+}
+
+.center-user-name{
+	color: #8c8c8c;
+	padding-bottom: 15px;
+	font-size: 14px;
+}
+
+section div p{
+	color: #8c8c8c;
+	float: right;
+}
+
+section div h5 a{
+	color: #4d4d68;
+}
+
+.center-info-icon{
+	font-size: 16px;
+	color: #8c8c8c;
+}
+
+section ul li{
+	font-size: 16px;
+	display: inline-block;
+}
+
+.center-info-details{
+	padding-bottom: 15px;
+	font-size: 12px;
+}
+
+.center-video{
+	width: 100%;
+	height: 250px;
+	padding-bottom: 15px;
+}
+
+.main-wapper-right{
+	width: 290px;
+	/*float: right;*/
+	background-color: #fff;
+	box-shadow: 0 1px 3px #eee;
+	margin-top: 76px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	bottom: 0;
+}
+
+.right-part1-container{
+	padding-top: 40px;
+	padding-left: 30px;
+	padding-bottom: 50px;
+}
+
+.right-part-title{
+	font-size: 16px;
+	padding-bottom: 30px;
+}
+
+
+.right-part1-list{
+	padding-bottom: 5px;
+}
+
+.right-part1-list-info{
+	color: #81aad3;
+	font-size: 14px;
+}
+.right-part1-icon{
+	color: #81aad3;
+}
+
+.right-part2-container{
+	padding-left: 30px;
+}
+
+.right-user-image{
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	margin-right: 10px;
+} 
+
+.right-part2-user{
+	vertical-align: top;
+}
+
+.right-part2-info{
+	padding-top: 7px;
+}
+
+.right-part2-user{
+	display: inline-block;
+}
+
+.right-part2-lists{
+	position: relative;
+	padding-bottom: 15px;
+}
+.right-part2-icon{
+	position: absolute;
+	padding: 10px 10px 10px 10px;
+	border: 1px solid #ccc;
+	right: 0;
+	top: 0;
+	margin-right: 20px;
+}
+.right-part2-icon:hover{
+	color: #fff;
+	background-color: #81a8ca;
 }
