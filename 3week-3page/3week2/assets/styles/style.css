@@ -33,6 +33,7 @@
 
 .fa-quill:before {
 	content: "\e600";
+	color: #fff;
 }
 
 .fa-redo:before {

@@ -2,27 +2,29 @@
     <head>
         <title>Demo Page</title>
         <meta charset="utf-8">
-
-        <link rel="stylesheet" href="./assets/styles/main.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- <link rel="stylesheet" href="./assets/styles/main.css"> -->
         <link rel="stylesheet" type="text/css" href="./assets/styles/style.css">
+        <link rel="stylesheet" type="text/css" href="./assets/styles/screen.css">
     </head>
     <body>
         <header class="header-fixed">
                 <nav class="header-left">
-                    <li><a href="#"><i class="fa-quill header-links-pen"></i></a>
+                    <div class="header-link-icon-first-container">
+                        <a class="header-link-icon-first" href="#"><i class="fa-quill" ></i></a>
+                    </div>
+                    <li class="header-link-icon"><a href="#"><i class="fa-notifications"></i></a>
                     </li>
-                    <li><a href="#"><i class="fa-notifications"></i></a>
+                    <li class="header-link-icon"><a href="#"><i class="fa-mail"></i></a>
                     </li>
-                    <li><a href="#"><i class="fa-mail"></i></a>
-                    </li>
-                    <li><a href="#"><i class="fa-plus"></i></a>
+                    <li class="header-link-icon"><a href="#"><i class="fa-plus"></i></a>
                     </li>
                 </nav>
                 <div class="header-center">
-                    <a href="#"><i class="fa-twitter"></i></a>
+                    <a href="#"><i class="fa-twitter icon-size"></i></a>
                 </div>
                 <div class="header-right">
-                        <input class="header-right-search" placeholder=" Search">
+                        <input class="header-right-search" placeholder="   Search">
                         <img class="header-right-image" src="./assets/images/p0.jpg">
                 </div>
         </header>
@@ -107,8 +109,8 @@
                             <img class="center-user-image"src="./assets/images/p3.jpg">
                             <div class="center-user-info">
                                 <h5 class="center-user-name"><a href="#">ThoughtWorks</a> @thoughtworks.com <p>1h</p></h5>
-                                <video class="center-video" controls="controls">
-                                     <source src="/assets/video/video.mp4" type="video/mp4">
+                                <video class="center-video" controls autoplay>
+                                    <source src="./assets/video/video.mp4" type="video/mp4">
                                 </video>
                                 <ul class="center-info-icon">
                                     <li class="fa-redo" style="padding-right:10px"></li>
@@ -151,7 +153,7 @@
             </div>
             <div class="main-wapper-right">
                 <div class="right-part1-container">
-                    <h3 class="right-part-title">PHILIPPINES TRENDS</h3>
+                    <p class="right-part1-title"><strong>PHILIPPINES TRENDS</strong></p>
                     <ul class="right-part1-lists">
                         <li class="right-part1-list">
                             <a class="right-part1-list-info" href="#"><i class="fa-notifications right-part1-icon"></i>Dhsn sinss dhadn</a>
@@ -186,7 +188,10 @@
                     </ul>
                 </div>
                 <div class="right-part2-container">
-                    <h3 class="right-part-title">WHO TO FOLLOW</h3>
+                    <div class="right-part2-title-container">
+                        <p class="right-part2-title"><strong>WHO TO FOLLOW</strong></p>
+                        <a class="right-part2-more" href="#">More</a>
+                    </div>
                     <ul>
                         <li class="right-part2-lists">
                             <img class="right-user-image" src="./assets/images/p6.jpg">

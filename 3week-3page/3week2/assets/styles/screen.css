@@ -452,3 +452,18 @@ section ul li{
 	color: #fff;
 	background-color: #8ea8ca;
 }
+
+@media (max-width: 1024px) and (min-width: 768px;) {
+
+	.main-wapper-right {
+		display: none;
+	}
+	
+	.main-wapper-center{
+
+	}
+
+}
+@media (max-width: 767px) {
+	
+}
