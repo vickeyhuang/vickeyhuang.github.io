@@ -8,7 +8,7 @@
         <link rel="stylesheet" type="text/css" href="./assets/styles/screen.css">
     </head>
     <body>
-        <header class="header-fixed r-ipad-header-fixed">
+        <header class="header-fixed r-ipad-header-fixed r-iphone-header-fixed">
                 <nav class="header-left">
                     <div class="header-link-icon-first-container">
                         <a class="header-link-icon-first" href="#"><i class="fa-quill" ></i></a>
@@ -61,26 +61,30 @@
                     </ul>
                 </div>
             </div>
-            <div class="main-wapper-center r-ipad-main-center">
-                <table class="center-table-container">
-                        <tr class="center-table-title-container">
-                            <td class="center-table-title">TWEETS</th>
-                            <td class="center-table-title">PHOTOS/VIDEOS</th>
-                            <td class="center-table-title">FOLLOWING</th>
-                            <td class="center-table-title">FOLLOWERS</th>
-                        </tr>
-                        <tr class="center-table-content-container">
-                            <th class="center-table-content">200</th>
-                            <th class="center-table-content">200</th>
-                            <th class="center-table-content">200</th>
-                            <th class="center-table-content">1M</th>
-                        </tr>
-                </table>
+            <div class="main-wapper-center r-ipad-main-center r-iphone-main-wapper-center">
+                <div class="center-table-container">
+                    <div class="center-table-content r-iphpone-center-table-content">
+                        <p class="center-content-title">TWEETS</p>
+                        <p class="center-content-info"><strong>200</strong></p>
+                    </div>
+                    <div class="center-table-content r-iphpone-center-table-content">
+                        <p class="center-content-title">PHOTOS/VIDEOS</p>
+                        <p class="center-content-info"><strong>200</strong></p>
+                    </div>
+                    <div class="center-table-content r-iphpone-center-table-content">
+                        <p class="center-content-title r-iphpone-center-table-content">FOLLOWING</p>
+                        <p class="center-content-info"><strong>200</strong></p>
+                    </div>
+                    <div class="center-table-content r-iphpone-center-table-content">
+                        <p class="center-content-title">FOLLOWERS</p>
+                        <p class="center-content-info"><strong>1M</strong></p>
+                    </div>
+                </div>
                 <div class="center_info_container">
                     <section class="center_info_section">
                             <img class="center-user-image"src="./assets/images/p1.jpg">
                             <div class="center-user-info">
-                                <h5 class="center-user-name"><a href="#">ThoughtWorks</a> @thoughtworks.com <p>2m</p></h5>
+                                <span class="center-user-name"><strong><a href="#">ThoughtWorks</a></strong> @thoughtworks.com <p>2d</p></span>
                                 <p class="center-info-details">ThoughtWorks is a privately owned. A community of passionate individuals whose purpose is to revolutionize software design, creation and delivery, while advocating for positive social change.</p>
                                 <ul class="center-info-icon">
                                     <li class="fa-redo" style="padding-right:10px"></li>
@@ -94,7 +98,7 @@
                     <section class="center_info_section">
                             <img class="center-user-image"src="./assets/images/p2.jpg">
                             <div class="center-user-info">
-                                <h5 class="center-user-name"><a href="#">ThoughtWorks</a> @thoughtworks.com <p>30m</p></h5>
+                                <span class="center-user-name"><strong><a href="#">ThoughtWorks</a></strong> @thoughtworks.com <p>2d</p></span>
                                 <p class="center-info-details">ThoughtWorks is a privately owned. A community of passionate individuals whose purpose is to revolutionize software design, creation and delivery, while advocating for positive social change.</p>
                                 <ul class="center-info-icon">
                                     <li class="fa-redo" style="padding-right:10px"></li>
@@ -108,7 +112,7 @@
                     <section class="center_info_section">
                             <img class="center-user-image"src="./assets/images/p3.jpg">
                             <div class="center-user-info">
-                                <h5 class="center-user-name"><a href="#">ThoughtWorks</a> @thoughtworks.com <p>1h</p></h5>
+                                <span class="center-user-name"><strong><a href="#">ThoughtWorks</a></strong> @thoughtworks.com <p>2d</p></span>
                                 <video class="center-video" controls autoplay>
                                     <source src="./assets/video/video.mp4" type="video/mp4">
                                 </video>
@@ -124,7 +128,7 @@
                     <section class="center_info_section">
                             <img class="center-user-image"src="./assets/images/p4.jpg">
                             <div class="center-user-info">
-                                <h5 class="center-user-name"><a href="#">ThoughtWorks</a> @thoughtworks.com <p>Yesterday</p></h5>
+                                <span class="center-user-name"><strong><a href="#">ThoughtWorks</a></strong> @thoughtworks.com <p>2d</p></span>
                                 <p class="center-info-details">ThoughtWorks is a privately owned. A community of passionate individuals whose purpose is to revolutionize software design, creation and delivery, while advocating for positive social change.</p>
                                 <ul class="center-info-icon">
                                     <li class="fa-redo" style="padding-right:10px"></li>
@@ -138,7 +142,7 @@
                     <section class="center_info_section">
                             <img class="center-user-image"src="./assets/images/p5.jpg">
                             <div class="center-user-info">
-                                <h5 class="center-user-name"><a href="#">ThoughtWorks</a> @thoughtworks.com <p>2d</p></h5>
+                                <span class="center-user-name"><strong><a href="#">ThoughtWorks</a></strong> @thoughtworks.com <p>2d</p></span>
                                 <p class="center-info-details">ThoughtWorks is a privately owned. A community of passionate individuals whose purpose is to revolutionize software design, creation and delivery, while advocating for positive social change.</p>
                                 <ul class="center-info-icon">
                                     <li class="fa-redo" style="padding-right:10px"></li>
@@ -151,8 +155,8 @@
                     </section>
                 </div>
             </div>
-            <div class="main-wapper-right">
-                <div class="right-part1-container">
+            <div class="main-wapper-right r-ipad-main-right">
+                <div class="right-part1-container r-ipad-part1-container">
                     <p class="right-part1-title"><strong>PHILIPPINES TRENDS</strong></p>
                     <ul class="right-part1-lists">
                         <li class="right-part1-list">

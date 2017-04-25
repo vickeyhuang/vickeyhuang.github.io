@@ -131,15 +131,12 @@ header div a:hover{
 	width: 290px;
 	background-color: #8ea8ca;
 	text-align: center;
-	/*float: left;*/
-	top: 0;
-	left: 0;
-	bottom: 0;
-	position: absolute;
+	float: left;
+	padding-bottom: 315px;
 }
 
 .left-user-logo{
-	margin-top: 136px;
+	margin-top: 60px;
 	height: 60px;
 	width: 60px;
 	border-radius: 50%;
@@ -250,9 +247,9 @@ div ul li i a{
 
 .main-wapper-center{
 	margin-top: 40px;
-	margin-left: auto;
-	margin-right: auto;
-	width: 51%;
+	width: 50%;
+	display: inline-block;
+	margin-left: 40px;
 }
 
 .center-table-container{
@@ -260,29 +257,26 @@ div ul li i a{
 	width: 100%;
 	background-color: #fff;
 	margin-bottom: 40px;
-}
-
-.center-table-title-container{
-
-}
-
-.center-table-title{
-	width: 25%;
-	color: #ccc;
-	font-size: 14px;
-	padding-top: 20px;
-	text-align: center;
-}
-
-.center-table-content-container{
-
+	display: inline-block;
 }
 
 .center-table-content{
-	width: 25%;
-	font-size: 16px;
+	width: 24%;
+	font-size: 14px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+	text-align: center;
+	display: inline-block;
+
+}
+
+.center-content-title{
+	color: #ccc;
+	padding-bottom: 5px;
+}
+
+.center-content-info{
 	color: #4d4d68;
-	padding-bottom: 20px;
 }
 
 .center-table-content:hover{
@@ -327,7 +321,7 @@ section div p{
 	float: right;
 }
 
-section div h5 a{
+section div span a{
 	color: #4d4d68;
 }
 
@@ -342,30 +336,24 @@ section ul li{
 }
 
 .center-info-details{
+	padding-top: 10px;
 	padding-bottom: 15px;
 	font-size: 12px;
+	line-height: 15px;
 }
-
-/*.center-video-frame{
-	width: 100%;
-	height: 300px;
-}*/
 
 .center-video{
 	height: 300px;
+	padding-top: 10px;
 	padding-bottom: 15px;
 }
 
 .main-wapper-right{
 	width: 290px;
-	/*float: right;*/
 	background-color: #fff;
 	box-shadow: 0 1px 3px #eee;
-	margin-top: 76px;
-	position: absolute;
-	top: 0;
-	right: 0;
-	bottom: 0;
+	float: right;
+	padding-bottom: 455px;
 }
 
 .right-part1-container{
@@ -453,16 +441,26 @@ section ul li{
 	background-color: #8ea8ca;
 }
 
-@media (max-width: 1024px) and (min-width: 768px) {
-	.r-ipad-header-fixed{
-	}
+@media (max-width: 1025px) and (min-width: 768px) {
 
-	.main-wapper-right {
-		display: none;
+	.r-ipad-header-fixed{
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
 	}
 	
 	.r-ipad-main-left{
-		width: 20%;
+		float: left;
+		width: 30%;
+		padding-bottom: 0;
+	}
+
+	.r-ipad-main-right{
+		width: 30%;
+		float: left;
+		padding-bottom: 15px;
+		padding-top: 40px;
 	}
 
 	.r-ipad-left-images-group{
@@ -474,20 +472,67 @@ section ul li{
 	}
 	
 	.r-ipad-p{
-		font-size: 8px;
+		font-size: 10px;
 	}
 
 	.r-ipad-main-center{
-		width: 70%;
+		float: right;
+		width: 67%;
+		margin-left: 0;
+	}
+
+	.r-ipad-part1-container{
+		display: none;
+	}
+
+	.center-video{
+		width: 100%;
+		height: 250px;
 	}
 }
 
-@media (max-width: 767px) {
+@media (max-width: 767px) and (min-width: 300px) {
+	.r-iphone-header-fixed{
+		position: absolute;
+		top: 0;
+		right: 0;
+		left: 0;
+	}
+	.header-link-icon{
+		display: none;
+	}
+	.header-right-search{
+		display: none;
+	}
 	.main-wapper-left {
 		display: none;
 	}
 
 	.main-wapper-right {
 		display: none;
+	}
+
+	.r-iphone-main-wapper-center{
+		width: 100%;
+		margin-right: 0;
+		margin-left: 0;
+	}
+	
+	.center-table-container{
+		height: auto;
+	}
+	.r-iphpone-center-table-content{
+		display: block;
+		width: 100%
+	}
+	.center-video{
+		width: 100%;
+		height: 200px;
+	}
+	.center-user-info{
+		width: 70%;
+	}
+	p,a{
+		font-size: 10px;
 	}
 }
