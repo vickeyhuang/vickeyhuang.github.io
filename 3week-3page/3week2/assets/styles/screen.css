@@ -453,17 +453,41 @@ section ul li{
 	background-color: #8ea8ca;
 }
 
-@media (max-width: 1024px) and (min-width: 768px;) {
+@media (max-width: 1024px) and (min-width: 768px) {
+	.r-ipad-header-fixed{
+	}
 
 	.main-wapper-right {
 		display: none;
 	}
 	
-	.main-wapper-center{
-
+	.r-ipad-main-left{
+		width: 20%;
 	}
 
-}
-@media (max-width: 767px) {
+	.r-ipad-left-images-group{
+		width: 100%;
+	}
+
+	.r-ipad-h3{
+		font-size: 13px;
+	}
 	
+	.r-ipad-p{
+		font-size: 8px;
+	}
+
+	.r-ipad-main-center{
+		width: 70%;
+	}
+}
+
+@media (max-width: 767px) {
+	.main-wapper-left {
+		display: none;
+	}
+
+	.main-wapper-right {
+		display: none;
+	}
 }
