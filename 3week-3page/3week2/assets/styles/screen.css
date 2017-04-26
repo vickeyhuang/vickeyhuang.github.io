@@ -198,12 +198,18 @@ div div a i{
 	width: 30%;
 	height: 30%;
 	border: 1px solid #8ea8ca;
+	opacity: 0.7;
+	transition: opacity 0.35s, transform 0.35s;
+	/*transform: translate3d(-5px,0,0);*/
+	transform: scale(1);
 }
 
 .left-image:hover{
-	width: 31%;
-	height: 31%
-	
+	/*width: 31%;
+	height: 31%*/
+	opacity: 1;
+	/*transform: translate3d(0,0,0);*/
+	transform: scale(1.15);
 }
 
 .left-activities{
