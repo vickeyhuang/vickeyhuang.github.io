@@ -7,6 +7,7 @@ body{
 .main {
 	position: relative;
 	padding-top: 76px;
+	display: flex;
 	overflow: hidden;
 }
 
@@ -249,9 +250,11 @@ div ul li i a{
 
 .main-wapper-center{
 	margin-top: 40px;
-	width: 52%;
+	margin-right: 30px;
+	/*width: 52%;*/
 	display: inline-block;
-	margin-left: 40px;
+	margin-left: 30px;
+	flex: 1;
 }
 
 .center-table-container{
@@ -446,7 +449,13 @@ section ul li{
 }
 
 @media (max-width: 1025px) and (min-width: 768px) {
-
+	.main{
+		display: block;
+		font-size: 12px;
+	}
+	.left-user-logo{
+		margin-top: 50px;
+	}
 	.r-ipad-header-fixed{
 		position: absolute;
 		top: 0;
@@ -463,25 +472,25 @@ section ul li{
 		width: 30%;
 		float: left;
 		padding-bottom: 1000px;
-		padding-top: 40px;
+		padding-top: 30px;
 	}
 
 	.r-ipad-left-images-group{
 		width: 100%;
 	}
 
-	.r-ipad-h3{
+	/*.r-ipad-h3{
 		font-size: 13px;
 	}
 	
 	.r-ipad-p{
 		font-size: 12px;
-	}
+	}*/
 
 	.r-ipad-main-center{
 		float: right;
-		width: 67%;
-		margin-left: 0;
+		width: 66%;
+		margin-right: 0;
 	}
 
 	.r-ipad-part1-container{
@@ -500,9 +509,13 @@ section ul li{
 		font-size: 13px;
 		padding-top: 15px;
 	}
-	p,a{
-		font-size: 13px;
+	.right-part2-container{
+		padding-left: 20px;
 	}
+
+	/*p,a{
+		font-size: 12px;
+	}*/
 }
 
 @media (max-width: 767px) and (min-width: 300px) {
