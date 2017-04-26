@@ -474,7 +474,7 @@ section ul li{
 	}
 	
 	.r-ipad-p{
-		font-size: 10px;
+		font-size: 12px;
 	}
 
 	.r-ipad-main-center{
@@ -490,6 +490,17 @@ section ul li{
 	.center-video{
 		width: 100%;
 		height: 250px;
+	}
+	.center-user-info{
+		width: 80%;
+	}
+
+	.center-info-details{
+		font-size: 13px;
+		padding-top: 15px;
+	}
+	p,a{
+		font-size: 13px;
 	}
 }
 
@@ -530,9 +541,6 @@ section ul li{
 	.center-video{
 		width: 100%;
 		height: 200px;
-	}
-	.center-user-info{
-		width: 70%;
 	}
 	p,a{
 		font-size: 12px;
