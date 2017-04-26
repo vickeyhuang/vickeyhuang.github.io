@@ -7,6 +7,7 @@ body{
 .main {
 	position: relative;
 	padding-top: 76px;
+	overflow: hidden;
 }
 
 .header-fixed{
@@ -132,7 +133,8 @@ header div a:hover{
 	background-color: #8ea8ca;
 	text-align: center;
 	float: left;
-	padding-bottom: 315px;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
 }
 
 .left-user-logo{
@@ -353,7 +355,8 @@ section ul li{
 	background-color: #fff;
 	box-shadow: 0 1px 3px #eee;
 	float: right;
-	padding-bottom: 455px;
+	padding-bottom: 1000px;
+	margin-bottom: -1000px;
 }
 
 .right-part1-container{
@@ -453,13 +456,12 @@ section ul li{
 	.r-ipad-main-left{
 		float: left;
 		width: 30%;
-		padding-bottom: 0;
 	}
 
 	.r-ipad-main-right{
 		width: 30%;
 		float: left;
-		padding-bottom: 15px;
+		padding-bottom: 1000px;
 		padding-top: 40px;
 	}
 
@@ -533,6 +535,6 @@ section ul li{
 		width: 70%;
 	}
 	p,a{
-		font-size: 10px;
+		font-size: 12px;
 	}
 }
