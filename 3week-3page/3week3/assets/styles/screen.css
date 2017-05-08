@@ -258,15 +258,29 @@ footer{
 	width: 100%;
 	height: 80px;
 	background-color: #757575;
-	font-size: 2em;
+	font-size: 1.7em;
 	color: #fff;
+	text-align: center;
+}
+
+.footer-container{
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+.icon{
+	display: inline-block;
+	font-size: 30px;
+	vertical-align: middle;
 }
 
 .footer-info{
-	margin: auto;
-	max-width: 230px;
+	/*margin: auto;*/
+	width: 170px;
 	vertical-align: middle;
-	padding-top: 30px;
+	line-height: 25px;
+	text-align: center;
+	display: inline-block;
 }
 
 /*nth-child()*/
@@ -288,7 +302,7 @@ footer{
 }
 
 .section2-image:nth-child(3n+1){
-	padding-left: 19px;
+	margin-left: 14px;
 }
 
 /*---------------------------------------*/
@@ -326,13 +340,17 @@ footer{
 	.list2-description{
 		width: 35%;
 	}
+
+	.footer-info{
+		width: 150px;
+	}
 }
 
 /*---------------------------------------*/
 /*********** responsive-mobile ***********/
 /*---------------------------------------*/
 
-@media (max-width: 767px) and (min-width: 300px){
+@media (max-width: 767px) and (min-width: 400px){
 	body{
 		font-size: 8px;
 	}
@@ -373,6 +391,13 @@ footer{
 		display: flex;
 		flex-direction: column-reverse;
 	}
+	
+	.section2-image{
+		width: 27%;
+	}
 
+	.footer-info{
+		width: 150px;
+	}
 }
 

@@ -62,10 +62,10 @@
 }
 .icon-heart:before {
   content: "\e9da";
-  vertical-align: middle;
 }
 .icon-happy:before {
   content: "\e9df";
+  vertical-align: middle;
 }
 .icon-tongue:before {
   content: "\e9e3";
