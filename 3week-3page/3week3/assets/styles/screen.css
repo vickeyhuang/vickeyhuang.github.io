@@ -350,7 +350,7 @@ footer{
 /*********** responsive-mobile ***********/
 /*---------------------------------------*/
 
-@media (max-width: 767px) and (min-width: 400px){
+@media (max-width: 767px) and (min-width: 300px){
 	body{
 		font-size: 8px;
 	}
