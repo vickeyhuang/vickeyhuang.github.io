@@ -132,6 +132,7 @@ header{
 	background-color: #ECEBF0;	
 	width: 95%;
 	margin: auto;
+	text-align: center;
 }
 
 .list1-image{
@@ -163,7 +164,7 @@ header{
 }
 
 .list1-description{
-	width: 45%;
+	width: 40%;
 	display: inline-block;
     line-height: 25px;
     vertical-align: middle;
@@ -368,13 +369,10 @@ footer{
 		font-size: 2em;
     	padding-left: 150px;
     }
-	
-	.list1-container{
-		text-align: center;
-	}
 
 	.list1-image{
 		width: 80%;
+		padding-right: 60px;
 	}
 
 	.list1-description{
