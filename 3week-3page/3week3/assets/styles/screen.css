@@ -51,14 +51,14 @@ header{
 	background-position: center 30%;
 	background-repeat: no-repeat;
 	height: 600px;
-	opacity: 0.8;
+	opacity: 1;
 	transition: opacity 0.35s, transform 0.35s;
 	transform: translate3d(0,0,0);
 
 }
 
 .hero:hover{
-	opacity: 1;
+	opacity: 0.8;
 	transform: translate3d(0,-50px,0);
 }
 
@@ -125,7 +125,7 @@ header{
 }
 
 .list1-container{
-	background-color: #EDEDED;	
+	background-color: #ECEBF0;	
 	width: 95%;
 	margin: auto;
 }
@@ -224,7 +224,7 @@ header{
 }
 
 .section2-images{
-	background-color: #CDCBD6;
+	background-color: #ECEBF0;
 	display: inline-block;
     text-align: center;
 }
@@ -268,7 +268,7 @@ footer{
 /*nth-child()*/
 
 .list1-container:nth-child(odd){
-	background-color: #FAFAFA;
+	background-color: #E5E3E9;
 	display: flex;
 	align-items: center;
 }
@@ -291,7 +291,7 @@ footer{
 /*********** responsive-ipad ***********/
 /*---------------------------------------*/
 
-@media (max-width: 1025px) and (min-width: 768px){
+@media (max-width: 1024px) and (min-width: 768px){
 
 	body{
 		font-size: 9px;
