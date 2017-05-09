@@ -345,6 +345,10 @@ footer{
 	.footer-info{
 		width: 150px;
 	}
+
+	.icon{
+		font-size: 28px;
+	}
 }
 
 /*---------------------------------------*/
@@ -396,6 +400,10 @@ footer{
 
 	.footer-info{
 		width: 150px;
+	}
+
+	.icon{
+		font-size: 25px;
 	}
 }
 
